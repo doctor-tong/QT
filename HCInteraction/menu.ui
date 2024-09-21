@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QMainWindow" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>871</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+background-image: url(:/menu/images/School.jpeg);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="exitButton">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>0</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+background-color: rgb(169, 223, 251);
+    border-color: #2f3640;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #FFFFFF;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #273c75, stop:1 #487eb0);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}</string>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>831</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="helpButton">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>0</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+background-color: rgb(169, 223, 251);
+    border-color: #2f3640;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #FFFFFF;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #273c75, stop:1 #487eb0);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}</string>
+     </property>
+     <property name="text">
+      <string>帮助</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="StuButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+background-color: rgb(169, 223, 251);
+    border-color: #2f3640;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #FFFFFF;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #273c75, stop:1 #487eb0);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}</string>
+     </property>
+     <property name="text">
+      <string>学生基本信息管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clasButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>0</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+background-color: rgb(169, 223, 251);
+    border-color: #2f3640;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #FFFFFF;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #273c75, stop:1 #487eb0);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}</string>
+     </property>
+     <property name="text">
+      <string>课程基本信息管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gradeButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>0</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+background-color: rgb(169, 223, 251);
+    border-color: #2f3640;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+/**鼠标按压下去的样式**/
+QPushButton::pressed,QPushButton::checked{
+    color: #FFFFFF;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #273c75, stop:1 #487eb0);
+}
+
+/**按钮失能情况下样式**/
+QPushButton::disabled{
+    color: #FFFFFF;
+    background-color: #dcdde1;
+    border-color: #dcdde1;
+}</string>
+     </property>
+     <property name="text">
+      <string>学生成绩管理</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hellolabel">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>0</y>
+       <width>131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border-image: url(:/menu/images/bulue.jpeg);
+	font: 8pt &quot;微软雅黑&quot;;
+    color: #2f3640;
+    background-color: #f5f6fa;
+    border-color: #2f3640;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+/**鼠标停留在按钮上的样式**/
+QPushButton::hover{	
+    color: #FFFFFF;
+    background-color: #718093;
+    border-color: #2f3640;
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>872</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_information">
+    <property name="title">
+     <string>信息管理</string>
+    </property>
+    <addaction name="studentManage"/>
+    <addaction name="classManage"/>
+    <addaction name="gradeManage"/>
+   </widget>
+   <widget class="QMenu" name="menu_account">
+    <property name="title">
+     <string>账号管理</string>
+    </property>
+    <addaction name="passWordEdit"/>
+    <addaction name="nameReEdit"/>
+    <addaction name="switchAccount"/>
+   </widget>
+   <widget class="QMenu" name="menu_sys">
+    <property name="title">
+     <string>系统</string>
+    </property>
+    <addaction name="help"/>
+    <addaction name="exit"/>
+   </widget>
+   <addaction name="menu_information"/>
+   <addaction name="menu_account"/>
+   <addaction name="menu_sys"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="studentManage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/student.png</normaloff>:/menu/images/student.png</iconset>
+   </property>
+   <property name="text">
+    <string>学生信息管理</string>
+   </property>
+  </action>
+  <action name="classManage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/class.png</normaloff>:/menu/images/class.png</iconset>
+   </property>
+   <property name="text">
+    <string>课程信息管理</string>
+   </property>
+  </action>
+  <action name="gradeManage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/modify.png</normaloff>:/menu/images/modify.png</iconset>
+   </property>
+   <property name="text">
+    <string>学生成绩管理</string>
+   </property>
+  </action>
+  <action name="passWordEdit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/password.png</normaloff>:/menu/images/password.png</iconset>
+   </property>
+   <property name="text">
+    <string>密码修改</string>
+   </property>
+  </action>
+  <action name="nameReEdit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/account_inf.png</normaloff>:/menu/images/account_inf.png</iconset>
+   </property>
+   <property name="text">
+    <string>用户名修改</string>
+   </property>
+  </action>
+  <action name="switchAccount">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/accountswitch.png</normaloff>:/menu/images/accountswitch.png</iconset>
+   </property>
+   <property name="text">
+    <string>账号切换</string>
+   </property>
+  </action>
+  <action name="help">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/help.png</normaloff>:/menu/images/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/menu/images/exit.png</normaloff>:/menu/images/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

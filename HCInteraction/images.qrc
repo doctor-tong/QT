@@ -1,0 +1,41 @@
+<RCC>
+    <qresource lang="english" prefix="/login">
+        <file>images/eye.png</file>
+        <file>images/close_eye.png</file>
+        <file>images/account.png</file>
+        <file>images/modify.png</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file>mene.qrc</file>
+        <file>images/help.png</file>
+        <file>images/class.png</file>
+        <file>images/data.png</file>
+        <file>images/exit.png</file>
+        <file>images/modify.png</file>
+        <file>images/account.png</file>
+        <file>images/account_inf.png</file>
+        <file>images/password.png</file>
+        <file>images/accountswitch.png</file>
+        <file>images/menu.png</file>
+        <file>images/student.png</file>
+        <file>images/School.jpeg</file>
+        <file>images/helpbg.jpeg</file>
+        <file>images/arr.png</file>
+        <file>images/bulue.jpeg</file>
+    </qresource>
+    <qresource prefix="/help">
+        <file>help.qrc</file>
+        <file>images/qiehuanjiansuoxiangmu.png</file>
+        <file>images/rollback.png</file>
+        <file>images/shaixuan.png</file>
+        <file>images/shanchu.png</file>
+        <file>images/tianjiaxinxi.png</file>
+        <file>images/tianxie.png</file>
+        <file>images/xialacaidan.png</file>
+        <file>images/xiugairuxueshijian.png</file>
+        <file>images/zhucaidan.png</file>
+        <file>images/zhucezhanghao.png</file>
+        <file>images/denglu.png</file>
+        <file>images/tijiao.png</file>
+    </qresource>
+</RCC>
