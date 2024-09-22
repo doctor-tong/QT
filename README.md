@@ -3,3 +3,5 @@
 ![image](https://github.com/user-attachments/assets/b243c588-28c3-48ea-8eba-3a7f8a7833fc)
 ![Uploading image.png…]()
 
+其中压缩的文件为管理系统可执行文件的压缩包
+
